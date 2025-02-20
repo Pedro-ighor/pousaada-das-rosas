@@ -167,14 +167,22 @@ li a:hover {
     font-weight: 600;
 }
 
-.link-beneficios3 {
-    color: #ffffff;
+.span-ler-mais {
+    color:#fff;
     font-weight: 100;
     text-decoration: underline;
     transition: 0.3s ease-in-out;
+    font-size: 40px;
+    margin-top: 30px;
+    
 }
 
-p a:hover {
+.link-ler-mais{
+    color:#ffffff;
+    
+}
+
+ span a:hover {
     background-color: #ffffff;
     color: #800000;
 }
