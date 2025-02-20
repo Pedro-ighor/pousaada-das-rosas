@@ -92,7 +92,7 @@ li a:hover {
     font-weight: 900;
     text-align: center;
     width: 100%;
-    border-radius:20% ;
+    border-radius: 20%;
 }
 
 .container-conteudo {
@@ -119,7 +119,7 @@ li a:hover {
     background-image: url(../imagens/pousada.png);
     background-position: center;
     border-radius: 10%;
-    
+
 }
 
 .link-inicio2,
@@ -332,9 +332,15 @@ p a:hover {
     align-items: center;
 }
 
-h4 {
-    font-size: 50px;
+#booking,
+#wpp,
+#insta,
+#email{
+    font-size: 27px;
     margin-right: 15px;
+    color: #800000;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .instagram,
@@ -344,9 +350,4 @@ h4 {
     display: flex;
     align-items: baseline;
     padding: 10px;
-}
-
-
-a i{
-    text-decoration:underline;
 }

@@ -183,8 +183,11 @@
     }
 
 
-    h4 {
-        font-size: 25px;
+    #wpp,
+    #email,
+    #booking,
+    #insta {
+        font-size: 15px;
     }
 
 }
@@ -209,11 +212,11 @@
         padding: 10px;
     }
 
-    .lista-nav li{
+    .lista-nav li {
         padding: 5px;
     }
 
-    .primeira-sessao{
+    .primeira-sessao {
         height: 400px;
     }
 
@@ -231,11 +234,12 @@
         width: 100px;
         height: 100px;
     }
-    .link-pagina-fotos{
+
+    .link-pagina-fotos {
         font-size: 25px;
     }
 
-    .div-beneficios{
+    .div-beneficios {
         height: 500px;
     }
 
@@ -245,15 +249,23 @@
         width: 100vw;
     }
 
-    .li-borda{
+    .li-borda {
         width: 110px;
     }
 
-    .mapa{
-        width:150px;
+    .mapa {
+        width: 150px;
         height: 150px;
     }
-    .endereco{
+
+    .endereco {
         font-size: 15px;
+    }
+
+    #wpp,
+    #email,
+    #booking,
+    #instagram {
+        font-size: 10px;
     }
 }
