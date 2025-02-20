@@ -1,0 +1,265 @@
+@media(max-width: 1024px) {
+    .div-tamanho {
+
+        max-width: 100vw;
+    }
+
+    .img-pousada {
+        width: 1024px;
+    }
+
+    .container-conteudo {
+        width: 100vw;
+    }
+
+    .div-sobre {
+        margin-top: 400px;
+    }
+
+    .cafe,
+    .lanche,
+    .piscina,
+    .pousada {
+        height: 100%;
+        width: 100%;
+        border-radius: 25%;
+    }
+
+    .div-beneficios {
+        display: flex;
+        justify-content: center;
+    }
+
+    .beneficios-1,
+    .beneficios-2 {
+        width: 840px;
+        font-size: 20px;
+    }
+
+    .li-borda {
+        width: 200px;
+    }
+
+}
+
+@media(max-width:764px) {
+    .div-tamanho {
+        max-width: 100vw;
+    }
+
+    .img-pousada {
+        width: 764px;
+    }
+
+    .container-conteudo {
+        width: 100vw;
+    }
+
+    .cafe,
+    .lanche,
+    .piscina,
+    .pousada {
+        height: 300px;
+        width: 300px;
+        border-radius: 25%;
+    }
+
+    .beneficios-1,
+    .beneficios-2 {
+        font-size: 16px;
+        width: 600px;
+    }
+
+    .li-borda {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .endereco {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width:665px) {
+
+    .div-tamanho {
+        max-width: 100vw;
+        flex-direction: column;
+    }
+
+    .img-pousada {
+        width: 100vw;
+        height: 300px;
+    }
+
+    .titulo-do-container-sessao {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .container-conteudo {
+        width: 100vw;
+        height: 500px;
+    }
+
+    .inicio,
+    .sobre,
+    .beneficios,
+    .fotos,
+    .localizacao,
+    .contato {
+        width: 200px;
+        height: 200px;
+
+    }
+
+
+    .div-sobre {
+        margin-top: 250px;
+    }
+
+    .titulo-sobre {
+        font-size: 30px;
+    }
+
+    .paragrafo-sobre {
+        font-size: 25px;
+    }
+
+    .titulo-foto {
+        font-size: 30px;
+    }
+
+    .cafe,
+    .lanche,
+    .piscina,
+    .pousada {
+        width: 100%;
+        height: 100%;
+    }
+
+    .titulo-beneficios {
+        font-size: 30px;
+    }
+
+    .subtitulo {
+        font-size: 25px;
+    }
+
+
+    .beneficios-1,
+    .beneficios-2 {
+        font-size: 16px;
+        width: 100vw;
+    }
+
+    .li-borda {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulo-localizacao {
+        font-size: 30px;
+    }
+
+    .mapa {
+        width: 250px;
+        height: 250px;
+    }
+
+    .endereco {
+        font-size: 20px;
+    }
+
+    .rodape {
+        height: 250px;
+    }
+
+    .titulo-redes {
+        font-size: 30px;
+    }
+
+    .email,
+    .instagram,
+    .whatsapp,
+    .booking {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width:450px) {
+    .div-tamanho {
+        max-width: 100vw;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .img-pousada {
+        width: 100vw;
+        height: 200px;
+    }
+
+    .lista-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .lista-nav li{
+        padding: 5px;
+    }
+
+    .primeira-sessao{
+        height: 400px;
+    }
+
+    .container-conteudo {
+        width: 100vw;
+        height: 200px;
+    }
+
+    .inicio,
+    .sobre,
+    .beneficios,
+    .fotos,
+    .localizacao,
+    .contato {
+        width: 100px;
+        height: 100px;
+    }
+    .link-pagina-fotos{
+        font-size: 25px;
+    }
+
+    .div-beneficios{
+        height: 500px;
+    }
+
+    .beneficios-1,
+    .beneficios-2 {
+        font-size: 12px;
+        width: 100vw;
+    }
+
+    .li-borda{
+        width: 110px;
+    }
+
+    .mapa{
+        width:150px;
+        height: 150px;
+    }
+    .endereco{
+        font-size: 15px;
+    }
+}

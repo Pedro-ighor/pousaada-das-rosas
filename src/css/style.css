@@ -1,0 +1,346 @@
+body {
+    background-color: #800000;
+    overflow-x: hidden;
+
+
+}
+
+.cabecalho {
+    background-color: #ffffff;
+}
+
+.div-tamanho {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.nome-pousada {
+    padding: 5px;
+    font-size: 24px;
+    color: #800000;
+
+}
+
+.lista-nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-inicio,
+.link-sobre,
+.link-fotos,
+.link-beneficios,
+.link-localizacao,
+.link-contato {
+    padding: 15px;
+    color: #800000;
+    font-weight: 700;
+
+}
+
+li a {
+    transition: 0.4s ease-in-out;
+
+}
+
+li a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.img-pousada {
+    width: 1524px;
+    height: 700px;
+
+}
+
+.primeira-sessao {
+    max-width: 100vw;
+    height: 800px;
+    margin: 200px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-do-container-sessao {
+    margin: 0 0 50px 0;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    border-radius:20% ;
+}
+
+.container-conteudo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.inicio,
+.sobre,
+.beneficios,
+.fotos,
+.localizacao,
+.contato {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    background-image: url(../imagens/pousada.png);
+    background-position: center;
+    border-radius: 10%;
+}
+
+.link-inicio2,
+.link-sobre2,
+.link-fotos2,
+.link-beneficios2,
+.link-localizacao2,
+.link-contato2 {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.primeira-sessao,
+li a:hover {
+    color: #800000;
+}
+
+
+.div-sobre {
+    margin-top: 80px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.titulo-sobre {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-weight: 900;
+
+}
+
+.paragrafo-sobre {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.link-beneficios3 {
+    color: #ffffff;
+    font-weight: 100;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+p a:hover {
+    background-color: #ffffff;
+    color: #800000;
+}
+
+.div-fotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+}
+
+
+.titulo-foto {
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
+
+.div-2-fotos {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.cafe,
+.lanche,
+.piscina,
+.pousada {
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 15%;
+}
+
+.link-pagina-fotos {
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.div-beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    height: 600px;
+    width: 100vw;
+    justify-content: center;
+}
+
+.titulo-beneficios {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.beneficios-1,
+.beneficios-2 {
+    color: #800000;
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.li-borda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 300px;
+    height: 50px;
+    border-radius: 25%;
+
+}
+
+.div-localizacao {
+    width: 100vw;
+    margin: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-localizacao {
+    font-size: 50px;
+    margin: 30px 0;
+    color: #ffffff;
+}
+
+.div2-localizacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    border-radius: 10%;
+    height: 500px;
+    width: 450px;
+}
+
+.endereco {
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 5px;
+    max-width: 800px;
+}
+
+.rodape {
+    margin-top: 200px;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #ffffff;
+    border-radius: 10%;
+}
+
+.titulo-redes {
+    font-size: 50px;
+    color: #800000;
+}
+
+.div-redes {
+    display: flex;
+    color: #800000;
+    width: 100vw;
+    height: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+}
+
+.redes-1,
+.redes-2 {
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+.instagram,
+.booking,
+.whatsapp,
+.email {
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+}
