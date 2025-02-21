@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pousasa Das Rosas</title>
+    <title>Pousada Das Rosas</title>
+
+
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/responsive.css">
@@ -22,7 +24,27 @@
 </head>
 
 <body>
+
     <header class="cabecalho">
+
+
+        <aside class="menu-oculto" id="menu-oculto" >
+            <span class="x" id="x" onclick="fecharNav()">
+                &times;
+            </span>
+            <a href="#">Início</a>
+            <a href="src2/indexSobre.html" class="pagina-sobre">Sobre</a>
+            <a href="" class="pagina-fotos">Fotos</a>
+            <a href="" class="pagina-hospedagem">Hospedagens</a>
+        </aside>
+        
+        
+            <div class="btn-menu" id="btn-menu" onclick="abrirNav()">
+                &#9776;
+            </div>
+        
+
+
 
         <div class="div-tamanho">
             <div class="logo">
@@ -46,7 +68,10 @@
                 </nav>
             </div>
 
+
+
         </div>
+
     </header>
 
     <img src="src/imagens/pousada.png" alt="img-pousada" class="img-pousada">
@@ -86,7 +111,7 @@
             </div>
 
             <span class="span-ler-mais">
-                <a href="#" class="link-ler-mais" id="estilo-link">
+                <a href="src2/indexSobre.html" class="link-ler-mais" id="estilo-link">
                     ler mais
 
                 </a>
@@ -257,7 +282,7 @@
     </footer>
 
 
-
+    <script src="src/JS/scripts.js"></script>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/svg-with-js.min.css"
