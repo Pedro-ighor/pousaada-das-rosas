@@ -7,6 +7,7 @@ body {
 
 .cabecalho {
     background-color: #ffffff;
+    width: 100vw;
 }
 
 .div-tamanho {
@@ -70,7 +71,7 @@ li a:hover {
 }
 
 .img-pousada {
-    width: 1524px;
+    width: 100vw;
     height: 700px;
 
 }
