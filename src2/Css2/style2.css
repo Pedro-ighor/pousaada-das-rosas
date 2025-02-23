@@ -12,6 +12,7 @@ body {
 
 }
 
+
 .logo {
     display: flex;
     justify-content: center;
@@ -48,14 +49,13 @@ main{
     justify-content: center;
     text-align: center;
     padding: 15px;
-    letter-spacing: 5px;
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 50px;
     color: #ffffff;
 
 }
 p{
-    font-size: 30px;
+    font-size: 25px;
     margin-top:50px ;
     margin-bottom: 50px;
 }
