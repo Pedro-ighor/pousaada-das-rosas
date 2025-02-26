@@ -1,4 +1,8 @@
-body {
+html{
+    scroll-behavior: smooth;
+}
+    
+    body {
     background-color: #800000;
     overflow-x: hidden;
 
@@ -16,8 +20,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    height: 90px;
+    padding: 5px 15px;
+    height: 70px;
     background-color: #ffffff;
 }
 

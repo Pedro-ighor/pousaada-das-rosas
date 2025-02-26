@@ -127,7 +127,8 @@
     .paragrafo-sobre {
         font-size: 25px;
     }
-    .span-ler-mais{
+
+    .span-ler-mais {
         font-size: 25px;
     }
 
@@ -196,9 +197,14 @@
 }
 
 @media(max-width:450px) {
-    .cabecalho{
+    html {
+        overflow-x: hidden;
+    }
+
+    .cabecalho {
         width: 100%;
     }
+
     .div-tamanho {
         width: 100vw;
         flex-direction: column;
